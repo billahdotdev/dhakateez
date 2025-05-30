@@ -93,7 +93,7 @@ const ComingSoon = () => {
           <div className={styles.brandContainer}>
             <h1 className={styles.brandName}>
               <span className={styles.brandPart1}>Dhaka</span>
-              <span className={styles.brandPart2}>teez</span>
+              <span className={styles.brandPart2}>Teez</span>
             </h1>
             <div className={styles.brandAccent}></div>
           </div>
