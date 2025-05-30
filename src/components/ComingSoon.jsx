@@ -103,7 +103,9 @@ const ComingSoon = () => {
               <span className={styles.sloganGlobal}>Globally</span>
               <span className={styles.sloganLocal}>Local</span>
             </div>
-            <div className={styles.sloganSubtext}>Expert Solutions for Your T-shirt Business</div>
+            <div className={styles.sloganSubtext}>
+              টি-শার্ট বিজনেসের জন্য এক্সপার্ট সল্যূশন।
+            </div>
           </div>
         </div>
 
@@ -126,7 +128,9 @@ const ComingSoon = () => {
           </div>
 
           <p className={styles.description}>
-            একটা নতুন গল্প শুরু হতে যাচ্ছে— আপনার ব্র্যান্ড অথবা ব্যবসার সাথে ঢাকাটিজের পার্টনারশিপের গল্প। দশ বছরের রপ্তানি অভিজ্ঞতা দিয়ে, আমরা ট্রেন্ডি পণ্য নিয়ে আপনার পাশে থেকে সাফল্যের পথে এগিয়ে যেতে চাই।
+            একটা নতুন গল্প শুরু হতে যাচ্ছে— আপনার ব্র্যান্ড অথবা ব্যবসার সাথে ঢাকাটিজের পার্টনারশিপের গল্প। 
+            বারো বছরের রপ্তানির অভিজ্ঞতা দিয়ে, আপাতত ট্রেন্ডি টি-শার্ট নিয়ে আপনার পাশে থেকে সাফল্যের পথে 
+            এগিয়ে যেতে চাই। আপনার ভালোবাসা পেলে শার্ট এবং প্যান্ট নিয়েও কাজ করার ইচ্ছা আছে। লেট'স গ্রো টুগেদার।
           </p>
 
           {/* Progress indicator */}
