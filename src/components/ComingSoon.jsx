@@ -138,7 +138,7 @@ const ComingSoon = () => {
             <div className={styles.progressBar}>
               <div className={styles.progressFill}></div>
             </div>
-            <span className={styles.progressText}>85% Complete</span>
+            <span className={styles.progressText}>85% complete, preparing for launch</span>
           </div>
         </div>
 
