@@ -71,9 +71,9 @@ const ComingSoon = () => {
         <svg className={styles.networkSvg} viewBox="0 0 100 100">
           <defs>
             <linearGradient id="lineGradient" x1="0%" y1="0%" x2="100%" y2="100%">
-              <stop offset="0%" stopColor="rgba(255,107,107,0.6)" />
-              <stop offset="50%" stopColor="rgba(78,205,196,0.6)" />
-              <stop offset="100%" stopColor="rgba(255,159,67,0.6)" />
+              <stop offset="0%" stopColor="rgba(241,196,15,0.6)" />
+              <stop offset="50%" stopColor="rgba(46,204,113,0.6)" />
+              <stop offset="100%" stopColor="rgba(241,196,15,0.6)" />
             </linearGradient>
           </defs>
           <path className={styles.networkPath1} d="M10,20 Q50,5 90,30" stroke="url(#lineGradient)" />
@@ -103,9 +103,7 @@ const ComingSoon = () => {
               <span className={styles.sloganGlobal}>Globally</span>
               <span className={styles.sloganLocal}>Local</span>
             </div>
-            <div className={styles.sloganSubtext}>
-              টি-শার্ট বিজনেসের জন্য এক্সপার্ট সল্যূশন।
-            </div>
+            <div className={styles.sloganSubtext}>টি-শার্ট বিজনেসের জন্য এক্সপার্ট সল্যূশন।</div>
           </div>
         </div>
 
@@ -128,8 +126,8 @@ const ComingSoon = () => {
           </div>
 
           <p className={styles.description}>
-            একটা নতুন গল্প শুরু হতে যাচ্ছে— আপনার ব্র্যান্ড অথবা ব্যবসার সাথে ঢাকাটিজের পার্টনারশিপের গল্প। 
-            ১২ বছরের রপ্তানির অভিজ্ঞতা, আপাতত ট্রেন্ডি টি-শার্ট দিয়ে শুরু। আপনার ভালোবাসা পেলে শার্ট, প্যান্ট এবং অন্যান্য আইটেম নিয়েও কাজ করার ইচ্ছা আছে। লেট'স গ্রো টুগেদার।
+            একটা নতুন গল্প শুরু হতে যাচ্ছে— আপনার ব্র্যান্ড অথবা ব্যবসার সাথে ঢাকাটিজের পার্টনারশিপের গল্প। ১২ বছরের রপ্তানির অভিজ্ঞতা, আপাতত
+            ট্রেন্ডি টি-শার্ট দিয়ে শুরু। আপনার ভালোবাসা পেলে শার্ট, প্যান্ট এবং অন্যান্য আইটেম নিয়েও কাজ করার ইচ্ছা আছে। লেট'স গ্রো টুগেদার।
           </p>
 
           {/* Progress indicator */}
