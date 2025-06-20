@@ -1,7 +1,7 @@
 "use client"
 
 import { useState, useEffect } from "react"
-import styles from "./ComingSoon.module.css"
+import styles from "./ComingSoon.module.css"  
 
 // Add these icon components
 const FacebookIcon = () => (
@@ -103,7 +103,7 @@ const ComingSoon = () => {
               <span className={styles.sloganGlobal}>Globally</span>
               <span className={styles.sloganLocal}>Local</span>
             </div>
-            <div className={styles.sloganSubtext}>টি-শার্ট বিজনেসের জন্য এক্সপার্ট সল্যূশন।</div>
+            <div className={styles.sloganSubtext}>Expert solutions for your T-shirt business.</div>
           </div>
         </div>
 
@@ -126,8 +126,11 @@ const ComingSoon = () => {
           </div>
 
           <p className={styles.description}>
-            একটা নতুন গল্প শুরু হতে যাচ্ছে— আপনার ব্র্যান্ড অথবা ব্যবসার সাথে ঢাকাটিজের পার্টনারশিপের গল্প। ১২ বছরের রপ্তানির অভিজ্ঞতা, আপাতত
-            ট্রেন্ডি টি-শার্ট দিয়ে শুরু। আপনার ভালোবাসা পেলে শার্ট, প্যান্ট এবং অন্যান্য আইটেম নিয়েও কাজ করার ইচ্ছা আছে। লেট'স গ্রো টুগেদার।
+            A new story is about to begin— the story of a partnership 
+            between your brand or business and DhakaTees. 
+            With 12 years of export experience, we're starting for now with trendy T-shirts. 
+            If we earn your support, we plan to expand into shirts, pants, and other items too. 
+            Let’s grow together.
           </p>
 
           {/* Progress indicator */}
@@ -160,8 +163,8 @@ const ComingSoon = () => {
           <div className={styles.contactInfo}>
             <div className={styles.phoneContainer}>
               <span className={styles.phoneLabel}>Get in touch</span>
-              <a href="tel:+8801711992558" className={styles.phoneNumber}>
-                +8801711992558
+              <a href="tel:+88017110000000" className={styles.phoneNumber}>
+                +88017110000000
               </a>
             </div>
           </div>
